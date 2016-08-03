@@ -1,0 +1,88 @@
+@brand-primary:#00c4b4;
+
+
+@btn-font-weight:                700;
+
+@btn-default-color:              @brand-primary;
+@btn-default-border:             @brand-primary;
+@btn-default-bg:                 #fff;
+
+@btn-primary-color:              #fff;
+@btn-primary-bg:                 @brand-primary;
+@btn-primary-border:             @brand-primary;
+
+@btn-success-color:              #fff;
+@btn-success-bg:                 @brand-success;
+@btn-success-border:             @brand-success;
+
+@btn-info-color:                 #fff;
+@btn-info-bg:                    @brand-info;
+@btn-info-border:                @brand-info;
+
+@btn-warning-color:              #fff;
+@btn-warning-bg:                 @brand-warning;
+@btn-warning-border:             @brand-warning;
+
+@btn-danger-color:               #fff;
+@btn-danger-bg:                  @brand-danger;
+@btn-danger-border:              @brand-danger;
+
+
+@state-warning-text:             darken(@brand-warning, 10%);
+@state-warning-bg:               lighten(@brand-warning, 32%);
+@state-warning-border:           @state-warning-bg;
+
+@state-danger-text:              darken(@brand-danger, 10%);
+@state-danger-bg:                lighten(@brand-danger, 32%);
+@state-danger-border:            @state-danger-bg;
+
+
+
+@text-color:										 @gray-base;
+
+@font-family-sans-serif:  "Source Sans Pro",sans-serif;
+@font-family-serif:				"Lora",serif;
+
+@font-size-base:					16px;
+
+@font-size-h1:            45px;
+@font-size-h2:            30px;
+@font-size-h3:            24px;
+
+
+@headings-font-family:    @font-family-sans-serif;
+@headings-font-weight:    700;
+
+@border-radius-base:        0px;
+@border-radius-large:       0px;
+@border-radius-small:       0px;
+
+@input-border-radius:     0;
+@input-border-focus:      @brand-primary;
+
+@icon-font-path:          "../bower_modules/bootstrap/fonts/";
+
+@input-border-radius:            0;
+@input-border-focus:             @brand-primary;
+
+@navbar-default-color:             @text-color;
+@navbar-default-link-color:        @text-color;
+@navbar-default-link-hover-color:  @brand-primary;
+@navbar-height:                    60px;
+@navbar-default-bg:                white;
+@navbar-default-border:            white;
+
+@close-color: @brand-primary;
+@close-font-weight: 300;
+
+@modal-header-border-color:white;
+@modal-inner-padding: 50px;
+
+.form-control-focus(@color: @input-border-focus) {
+  &:focus {
+    border-color: @color;
+    outline: 0;
+    .box-shadow(none);
+  }
+}
+

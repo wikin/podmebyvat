@@ -1,0 +1,19 @@
+
+    
+    <footer class="footer">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+
+                <div class="navbar-header">
+                    <div class="navbar-text">&copy; Podme Byvat 2016</div>
+                </div>
+
+
+            </div>
+        
+        </nav>
+                          
+    </footer>
+
+</body>
+</html>
