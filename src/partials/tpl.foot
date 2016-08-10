@@ -38,11 +38,15 @@
 									<h4>Napište nam</h4>
 
 									<form>
-										<div class="form-group">
-											<input type="email" class="form-control input-sm" placeholder="Váš email" required>
+										<div class="form-group has-feedback">
+											<input type="email" class="form-control input-sm" placeholder="Váš email" required data-error="Prosim zadejte vas email">
+											<span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                      <div class="help-block with-errors"></div>
 										</div>
-										<div class="form-group">
-											<textarea rows="2" class="form-control  input-sm" placeholder="Text spravy" required></textarea>
+										<div class="form-group has-feedback">
+											<textarea rows="2" class="form-control  input-sm" placeholder="Text spravy" required data-error="Prosim zadejte text vasi spravy"></textarea>
+											<span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                      <div class="help-block with-errors"></div>
 										</div>
 	
 										<button type="submit" class="btn btn-primary btn-sm">Odeslat</button>
