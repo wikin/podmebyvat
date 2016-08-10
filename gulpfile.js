@@ -34,10 +34,12 @@ gulp.task('less', function () {
     var appCss = gulp.src('./src/less/style.less')
                 .pipe(less())
                 .pipe(replace(/url\((')?\.\.\/bower_modules\/bootstrap\/fonts\//g, 'url($1../fonts/'))
+                .pipe(replace(/url\((')?\.\.\/bower_modules\/font\-awesome\/fonts\//g, 'url($1../fonts/'))
                 .pipe(autoprefixer('last 10 versions', 'ie 9'))
                 .pipe(minifyCSS()),
         combinedStream = cs.create(),
         fontFiles = gulp.src('./src/bower_modules/bootstrap/dist/fonts/*', { base: './src/bower_modules/bootstrap/dist/' }),
+        fontAwesomeFiles = gulp.src('./src/bower_modules/font-awesome/fonts/*', { base: './src/bower_modules/font-awesome/' }),
 //        iconCss = gulp.src('src/icon/style.css')
 //                .pipe(minifyCSS()),
 //        iconFiles = gulp.src('./src/icon/fonts/*', { base: './src/icon/' }),
@@ -49,7 +51,7 @@ gulp.task('less', function () {
     var combinedCss = combinedStream
         .pipe(concat('css/style.css'));
 
-    return es.concat(combinedCss, fontFiles, imgFiles)
+    return es.concat(combinedCss, fontFiles, fontAwesomeFiles, imgFiles)
         .pipe(gulp.dest('./dist/'));
 
 });

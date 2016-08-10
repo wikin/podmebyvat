@@ -56,7 +56,7 @@
         <div class="col-sm-6">
           <div class="media">
             <div class="media-left">
-              <a href="firmy.aspx"><span class="glyphicon glyphicon-heart-empty"></span></a>
+              <a href="firmy.aspx"><i class="fa fa-circle-thin" aria-hidden="true"></i></a>
             </div>
             <div class="media-body">
               <h4><a href="firmy.aspx">Stavebníctvo</a></h4>
@@ -67,7 +67,7 @@
         <div class="col-sm-6">
           <div class="media">
             <div class="media-left">
-              <a href=""><span class="glyphicon glyphicon-heart-empty"></span></a>
+              <a href=""><i class="fa fa-circle-thin" aria-hidden="true"></i></a>
             </div>
             <div class="media-body">
               <h4><a href="">Interiér a doplnky</a></h4>
@@ -81,7 +81,7 @@
         <div class="col-sm-6">
           <div class="media">
             <div class="media-left">
-              <a href=""><span class="glyphicon glyphicon-heart-empty"></span></a>
+              <a href=""><i class="fa fa-circle-thin" aria-hidden="true"></i></a>
             </div>
             <div class="media-body">
               <h4><a href="">Exterér a záhrada</a></h4>
@@ -92,7 +92,7 @@
         <div class="col-sm-6">
           <div class="media">
             <div class="media-left">
-              <a href=""><span class="glyphicon glyphicon-heart-empty"></span></a>
+              <a href=""><i class="fa fa-circle-thin" aria-hidden="true"></i></a>
             </div>
             <div class="media-body">
               <h4><a href="">Služby a remeslá</a></h4>
