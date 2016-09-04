@@ -25,6 +25,7 @@
         <script src="bower_modules/jquery/dist/jquery.js"></script>
         <script src="bower_modules/bootstrap/dist/js/bootstrap.min.js"></script>
         <script src="bower_modules/bootstrap-validator/dist/validator.js"></script>
+        <script src="bower_modules/jQuery.dotdotdot/src/jquery.dotdotdot.min.js"></script>
         <script src="js/script.js"></script>
     <!-- endbuild -->
 
